@@ -2,7 +2,7 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Employee {
     private String name;
-    private String email = "нету";
+    private String email = "голяк";
     private int tel;
 
     Employee(String name,String email) {
