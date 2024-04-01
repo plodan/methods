@@ -22,7 +22,7 @@ public class Printer {
     }
 
     public  void append(String text, int pageCount) {
-        queue = queue + "\n" + "Документ без имени" + " - " + text;
+        queue = queue + "\n" + "Документов без имени" + " - " + text;
         pagesIsQueue = pagesIsQueue + pageCount;
 
     }
