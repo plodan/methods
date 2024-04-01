@@ -9,7 +9,7 @@ public class Printer {
 
 
     public void append(String text) {
-        queue = queue + "\n" + "Документ без имени" + " - " + text;
+        queue = queue + "\n" + "Документов без имени" + " - " + text;
         pagesIsQueue = pagesIsQueue + 1;
 
     }
